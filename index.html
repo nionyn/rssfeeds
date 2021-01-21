@@ -1,0 +1,25 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="scripts/get.js"></script>
+</head>
+<body>
+	<div id="controls">
+		<label for="bbc">Sources: </label>
+		<input type="checkbox" id="bbc" name="name" value="bbc">
+		<label for="bbc">BBC</label>
+		<input type="checkbox" id="wsj" name="name" value="wsj">
+		<label for="wsj">Wall Street Journal</label>
+		<input type="checkbox" id="nytimes" name="name" value="nytimes">
+		<label for="nytimes">NYTimes</label>
+		|
+		<label for="sort">Sort: </label>
+		<select name="sort" id="sort">
+		  <option value="asc">Ascending</option>
+		  <option value="desc" selected="selected">Descending</option>
+		</select>
+		<button onclick="filter()">Go</button>
+	</div>
+	<div id="feeds"></div>
+</body>
+</html>
