@@ -1,0 +1,74 @@
+body {
+	background-color : lightblue;
+	font-family: normal x-small verdana,arial,helvetica,sans-serif;	
+}
+
+.title {
+	font-size : 2em;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.row{
+	max-width: 600px;
+	background-color: white;
+	border-radius: 0.2em;
+	padding: 1em 1em;
+	margin: 1em auto;
+	
+}
+
+.top {
+	width: 100%;
+}
+
+.date {
+	display: block;
+	text-align: right;
+}
+
+.description {
+	display: block;
+}
+
+.title {
+	display: block;
+}
+
+#controls {
+	max-width: 600px;
+	background-color: white;
+	border-radius: 0.2em;
+	padding: 1em 1em;
+	margin: 1em auto;
+}
+
+#controls > * {
+	width: auto;
+    display: inline;
+}
+
+
+
